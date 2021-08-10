@@ -1,0 +1,19 @@
+
+<form #f="ngForm" (ngSubmit)="onSubmit(f)" novalidate>
+  <h1>wellcon to class!!</h1>
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <h2>name</h2>
+  <input [(ngModel)]='user.name' type="text" name='name' placeholder='enter name' required>
+  <h2>password</h2>
+  <input [(ngModel)]='user.password' type="password" name='password' placeholder='enter password' required>
+  <br /><br /><br /><br /><br />
+  <button>next</button>
+</form>
+
+
+
+
