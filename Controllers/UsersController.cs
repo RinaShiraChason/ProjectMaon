@@ -11,10 +11,10 @@ namespace exampleProject.Controllers
     [ApiController]
     public class UsersController : ControllerBase
     {
-        [HttpGet("[action]")]
-        public string FindUser(string name,string password)
+        [HttpGet("api/Users/FindUser")]
+        public string FindUser(/*string name,string password*/)
         {
-            return name + ' ' + password;
+            return /*name + ' ' + password*/"הצליח";
         }
     }
 }

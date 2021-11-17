@@ -33,6 +33,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <TypeScriptCompile Remove="ClientApp\src\classes\classes.ts" />
+  </ItemGroup>
+
+  <ItemGroup>
     <TypeScriptCompile Include="ClientApp\src\services\uesrs.service.ts" />
   </ItemGroup>
 

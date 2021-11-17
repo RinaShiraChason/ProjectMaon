@@ -13,6 +13,7 @@ namespace exampleProject.Models
             TypeClass = new HashSet<TypeClass>();
         }
 
+
         public int ClassId { get; set; }
         public int KindOfClassId { get; set; }
 
