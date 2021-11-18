@@ -6,13 +6,13 @@ import { UsersService } from '../../services/uesrs.service';
 
 
 @Component({
-  selector: 'app-login',
-  templateUrl: './login.component.html'
+  selector: 'app-childArea',
+  templateUrl: './childArea.component.html'
 })
 
 
 
-export class LoginComponent {
+export class ChildAreaComponent {
   constructor(private UsersService: UsersService) {}
    user = { name: '', password: '' };
     onSubmit(f: NgForm) {
